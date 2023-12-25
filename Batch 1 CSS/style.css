@@ -1,0 +1,80 @@
+h1 { 
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+
+/* Universal Selector */
+
+*{
+    color: green;
+    text-transform: uppercase;
+}
+
+/* Tag Selector */
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+/* attribute selector */
+
+a[title="google"] {
+    color: red;
+    text-decoration: none;
+}
+
+/* id selector */
+#idselector {
+    color: brown;
+    line-height: 30px;
+    letter-spacing: 20px;
+    text-indent: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+/* class selector */
+.classSelector {
+    color: red;
+    word-spacing: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+
+/* descendent selector */
+.desc a{ 
+    color: red;
+
+}
+
+/* child  selector */
+.child>a{
+    color: red;
+}
+
+a:link {
+    color: red;
+}
+a:hover{
+    color: yellow;
+    letter-spacing: 20px;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: blue;
+}
+
+/* Target */
+
+:target{
+    color: red;
+    letter-spacing: 10px;
+    border: 1px solid black;
+}
