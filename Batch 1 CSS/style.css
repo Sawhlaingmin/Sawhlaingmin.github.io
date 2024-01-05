@@ -9,8 +9,10 @@ h1 {
 /* Universal Selector */
 
 *{
-    color: green;
-    text-transform: uppercase;
+    /* color: green;
+    text-transform: uppercase; */
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Tag Selector */
@@ -77,4 +79,60 @@ a:visited{
     color: red;
     letter-spacing: 10px;
     border: 1px solid black;
+}
+
+.borderone {
+
+    border: 10px solid red;
+}
+
+.bordertwo {
+   border-top: 20px solid red;
+   border-left: 20px solid  yellow;
+}
+
+.borderthree {
+    border-style: dotted double solid dashed;
+}
+
+.borderWidth {
+    border-width: 20px 5px 10px 30px ;
+    border-style: dotted;
+    border-color: red yellow;
+}
+
+.margin {
+    border: 3px solid red;
+    margin: 40px;
+}
+
+.padding {
+    border: 2px solid black;
+    padding-top: 100px;
+}
+
+.inline {
+    border: 2px solid red;
+    width: 300px;
+    display: inline-block;
+}
+
+.block {
+    border: 2px solid black;
+    width: 300px;
+    display: inline-block;
+}
+
+.floatLeft img {
+    float: left;
+    width: 40%;
+}
+
+.clear {
+    clear: both;
+}
+
+.floatRight img{
+    float: right;
+    width: 40%;
 }
