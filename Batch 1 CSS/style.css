@@ -136,3 +136,84 @@ a:visited{
     float: right;
     width: 40%;
 }
+
+/* Grid  */
+
+.gridone div, .gridtwo div, .gridthree div, .gridfour div{
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+}
+
+.gridone {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    /* grid-gap: 20px;  */
+}
+
+.gridthree, .gridfour {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.rowadd {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.columnadd  {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* Position */
+
+.relativeParent {
+    border: 2px solid red;
+    width: 1000px;
+    height: 600px;
+   
+}
+
+.positionRelative {
+    position: relative;
+    border: 2px solid green;
+    width: 500px;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+}
+
+.absoluteParent {
+    border: 2px solid brown;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+.positionAbsolute {
+    border: 2px solid yellow;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+.positionFixed {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+.onlineFont {
+    font-family: 'Roboto', sans-serif;
+}
