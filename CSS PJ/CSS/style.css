@@ -1,0 +1,547 @@
+@font-face {
+    font-family: rubik;
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: rubik;
+}
+/* Start Nav */
+
+.nav {
+    /* background-color: red; */
+    box-shadow: 0px 10px 20px rgb(0, 0, 0,.1);
+}
+.navLogo {
+    width: 170px;
+    height: 90px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.navBar {
+    display: inline-block;
+}
+
+.navItem {
+    
+    float: right;
+
+}
+
+.navItem li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+.navItem li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navItem li:last-child {
+    margin-right: 120px;
+}
+
+.navItemHover a:hover {
+    color: red;
+}
+
+.cartNoti {
+    position: relative;
+    top: -15px;
+    left: -8px;
+    background-color: red;
+    border-radius: 50px;
+    padding: 5px 5px;
+    color: white;
+}
+/* End Nav */
+
+/* Start Bunner  */
+
+.bunnerImage {
+    width: 100%;
+}
+.caruoselText {
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    background-color: rgb(0, 0, 0,.3);
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.caruoselButton {
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+/* End Bunner */
+
+/* Start Service Item */
+.service {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.serviceText {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.service div {
+    border: 1px solid rgb(184, 177, 177);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.service div:last-child {
+    margin-right: 170px;
+}
+
+.line1 {
+    font-weight: bold;
+}
+.line {
+    opacity: 0.5;
+}
+
+/* End Service */
+
+/* Start Promotion */
+
+.title {
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.divided {
+    width: 90px;
+    margin-left: 170px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.promotion , .productShirt{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px 150px 0px;
+    
+}
+
+.promotionImage  {
+    width: 100%;
+}
+
+.promotion div {
+    border: 1px solid  rgb(184, 177, 177);
+    margin: 0px 20px ;
+    border-radius: 5px;
+}
+.promotionName{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.promotionPrice {
+    position: relative;
+    top: -80%;
+    right: -65%;
+}
+
+.discountPrice {
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+}
+
+.normalPrice {
+    text-decoration: line-through;
+    color: red;
+    font-size: 15px;
+}
+
+/* End Promotion */
+
+/* Start New Arrival */
+
+.newArrival {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px 150px;
+    
+}
+
+.newarrivalItem img {
+    width: 100%;
+}
+
+
+.newarrivalItem {
+    position: relative;
+    margin: 0px 20px;
+    border: 1px solid rgb(184, 177, 177);
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.newarrivalImage {
+    position: relative;
+}
+
+.newarrivalDetail {
+    position: absolute;
+    top: 38%;
+    right: 40%;
+    opacity: 0;
+    color: white;
+}
+
+
+.newarrivalHeart {
+    float: right;
+}
+
+.newArrivalName {
+    display: inline-block;
+}
+
+
+.newarrivalItem:hover .newarrivalDetail{
+    opacity: 1;
+}
+
+.newarrivalDetail a {
+    border: 1px solid red;
+    padding: 5px;
+    background-color: rgb(231, 225, 225);
+    color: red;
+    border-radius: 5px;
+}
+
+.newarrivalDetail a:hover {
+    color: white;
+    background-color: red;
+}
+
+.newarrivalItem:hover img{
+   opacity: 0.5;
+}
+
+.newArrival .newarrivalItem {
+    margin-bottom: 15px;
+}
+
+/* End New Arrival */
+
+/* Start Subscribe */
+
+.Subscribe {
+    background-color: red;
+    margin-top: 50px;
+}
+.subText{
+    display: inline-block;
+    margin-left: 200px;
+    padding: 50px 0px 50px;
+    color: white;
+}
+
+.subText p {
+    padding: 10px 0px 20px ;
+}
+.subLogo {
+    display: inline-block;
+    margin-left: 200px;
+    width: 250px;
+    color: white;
+}
+
+.change {
+    width: 300px;
+    height: 150px;
+    padding-right: 100px;
+}
+
+.subInput {
+    width: 400px;
+    height: 40px;
+    border: 1px solid red;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subButton {
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* End Subscribe */
+
+/* Start News */
+
+.news {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 150px 0px;
+}
+
+.news>div {
+    margin: 0px 20px;
+    border: 1px solid rgb(231, 225, 225);
+    border-radius: 5px;
+}
+
+.newsImg {
+    width: 100%;
+}
+
+.newsText {
+    padding: 10px 20px 20px;
+}
+
+.newsImg:hover {
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+.overflow {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.newsText small {
+    margin: 10px 0px ;
+    display: inline-block;
+    font-style: italic;
+}
+
+.newsButton {
+    float: right;
+    margin: 10px 0px 20px;
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 3px;
+    color: red;
+}
+
+.newsButton:hover {
+    color: white;
+    background-color: red;
+}
+
+/* End News */
+
+/* Start Footer */
+
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    display: grid;
+    grid-template-columns: 700px 150px 150px auto;
+}
+
+.footer div {
+    margin: 80px;
+}
+
+.footerDivided {
+    width: 50px;
+    margin: 5px 0px 20px;
+    border: 2px solid red;
+}
+
+.footerNavItem {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.icon p {
+    padding-top: 20px;
+}
+
+.socialIcon {
+    color: white;
+    margin-right: 10px;
+}
+
+.socialIcon:hover  {
+    color: blue;
+}
+
+/* End Footer */
+
+/* Start Product */
+
+.main{
+    background-color: rgb(227, 246, 239);
+}
+
+.title2{
+    margin:50px 167px 5px;
+    font-size: 30px;
+    color: red;
+}
+.title3 {
+    margin:40px 167px 5px;
+    font-size: 30px;
+    color: red;
+}
+
+.titleDivided {
+    width: 60px;
+    margin-left: 167px;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+.productHead {
+    margin-left: 150px;
+    color: red;
+    margin-top: 10px;
+}
+
+.productInput {
+    width: 200px;
+    height: 30px;
+    float: right;
+    margin-right: 170px;
+    border: 2px solid red;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.productInput:focus{
+    border: 2px solid red;
+    outline: none;
+    
+}
+.productButton {
+    width: 60px;
+    height: 33px;
+    float: right;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    padding: 5px 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.productShirt {
+    display: grid;
+    grid-template-columns: 310px auto auto auto;
+    margin-top: 70px;
+}
+
+
+.sidebar a{
+    columns: auto;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    margin: 0px 75px;
+    font-size: 20px;
+}
+.sidebar{
+    margin-top: 30px;
+    font-size: 30px;
+    border: 1px solid rgb(184, 177, 177) ;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(242, 242, 205);
+    font-weight: 600;
+}
+.sidea:hover {
+    color: red;
+}
+
+.productImage {
+    width: 100%;
+    
+}
+
+
+.productShirt .products {
+    border: 1px solid  rgb(184, 177, 177);
+    margin: 0px 20px ;
+    border-radius: 5px;
+}
+
+.shirtName {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+/* second */
+
+.productDress {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 150px 0px;
+    
+}
+
+.productDress div {
+    margin: 0px 20px 10px;
+    border: 1px solid rgb(184, 177, 177) ;
+    border-radius: 5px;
+}
+
+.dressImage {
+    width: 100%;
+}
+
+.dressName {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+/* end item */
+
+
+
+.seeMore:hover {
+    background-color: black;
+    color: white;
+}
+
+/* footer */
+.btnBg {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.ftText {
+    margin-left: 38%;
+}
+
+.ftIcon {
+    margin-left: 45%;
+    padding-top: 10px;
+}
+
+.ftIcon2 {
+    margin-left: 43%;
+    margin-top: 10px;
+}

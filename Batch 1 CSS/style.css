@@ -214,6 +214,16 @@ a:visited{
     right: 50px;
 }
 
+/* Font */
 .onlineFont {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bungee Spice', sans-serif;    
+}
+
+@font-face {
+    font-family: bungee;
+    src: url(Bungee_Spice/BungeeSpice-Regular.ttf);
+}
+
+.offlineFont {
+    font-family: bungee; 
 }

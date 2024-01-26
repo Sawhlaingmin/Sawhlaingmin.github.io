@@ -1,0 +1,157 @@
+@font-face {
+    font-family: rubik;
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: rubik;
+}
+/* Start Nav */
+
+.nav {
+    /* background-color: red; */
+    box-shadow: 0px 10px 20px rgb(0, 0, 0,.1);
+}
+.navLogo {
+    width: 170px;
+    height: 90px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.navBar {
+    display: inline-block;
+}
+
+.navItem {
+    
+    float: right;
+
+}
+
+.navItem li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+.navItem li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navItem li:last-child {
+    margin-right: 120px;
+}
+
+.navItemHover a:hover {
+    color: red;
+}
+
+.cartNoti {
+    position: relative;
+    top: -15px;
+    left: -8px;
+    background-color: red;
+    border-radius: 50px;
+    padding: 5px 5px;
+    color: white;
+}
+
+.navItem .shopButton {
+    border: 1px solid red;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(253, 48, 48); 
+}
+
+/* end nav */
+
+/* start form */
+.heading{
+    text-align: center;
+    color: rgb(243, 31, 31);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+.contactContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 250px;
+}
+
+.contactContainer div {
+    margin: 0px 80px;
+}
+
+.contactForm input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px 20px;
+    border: 1px solid rgb(186, 183, 183);
+}
+
+
+.name, .email, .subject, .message{
+    margin: 5px 0px 20px;
+}
+
+.text1 {
+    margin: 10px 0px 40px;
+    display: inline-block;
+}
+
+.head {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.message {
+    border-radius: 5px;
+    border: 1px solid rgb(186, 183, 183);
+}
+
+.Name , .Email , .Subject , .Message {
+    font-weight: bold;
+}
+
+.btn {
+    padding: 5px;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 5px;
+}
+/* end form */
+
+/* start footer */
+.foot {
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.footerText {
+    padding: 15px 0px;
+    color: white;
+    margin-top: 5px;
+}
+
+.ftIcon2 .socialIcon{
+    color: white;
+    margin-top: 5px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.stay {
+    margin: 10px 0px;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+/* end footer */
